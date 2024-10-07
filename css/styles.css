@@ -107,7 +107,7 @@ header a:hover{
     position: relative;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 .main-container .stock .imagenes p{
@@ -166,6 +166,10 @@ header a:hover{
     background: url(../img/side.jpg) center center/cover;
 }
 .main-container .side .side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     background-color: rgba(165, 42, 42, 0.258);
     margin: 40px auto;
@@ -176,7 +180,7 @@ header a:hover{
 
 
 .main-container .side .side-container button{
-    
+
     border: 1px solid rgb(29, 23, 0);
     padding: 10px 15px;
     border-radius:15px;
@@ -186,7 +190,6 @@ header a:hover{
     font-size: 40px;
     position: relative;
     top: 30px;
-    left: 32%;
     transition: all 0.2s ease-in-out;
 }
 
