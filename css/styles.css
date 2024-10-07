@@ -173,7 +173,29 @@ header a:hover{
 .main-container .side h3{
     color: black;
 }
+
+
+.main-container .side .side-container button{
+    
+    border: 1px solid rgb(29, 23, 0);
+    padding: 10px 15px;
+    border-radius:15px;
+    background-color: #b4764f;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 32%;
+    transition: all 0.2s ease-in-out;
+}
+
 /* Texto blanco para el side que lo requiera*/
 .main-container .side .blanco{
     color: #fff;
+}
+
+.main-container .side .side-container button:hover{
+    transform: scale(1.1);
+    background-color: #cd966c;
 }
