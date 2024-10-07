@@ -122,14 +122,15 @@ header a:hover{
     transition: all 0.2s ease-in-out;
 }
 
-.main-container .stock .imagenes:hover{
-    transform: scale(1.1);
-    z-index: 1000;
-}
+
 
 .main-container .stock .imagenes:hover p{
     display: none;
 
+}
+.main-container .stock .imagenes:hover{
+    transform: scale(1.05);
+    z-index: 1000;
 }
 .main-container .stock .imagenes img{
     object-fit: cover;
@@ -171,4 +172,8 @@ header a:hover{
 }
 .main-container .side h3{
     color: black;
+}
+/* Texto blanco para el side que lo requiera*/
+.main-container .side .blanco{
+    color: #fff;
 }
