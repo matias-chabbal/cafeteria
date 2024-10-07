@@ -78,6 +78,7 @@ header a:hover{
     gap: 10px;
     width: 100%;
     background-color:#222;
+    justify-content: center;
 }
 
 .main-container .stock{
@@ -92,9 +93,8 @@ header a:hover{
     gap: 5px;
     margin: 20px;
 }
-
-.main-container .stock h3{
-   grid-area: titulo;
+.main-container h3{
+    grid-area: titulo;
    color: #fff;
    margin-bottom: 30px;
    font-size: 4rem;
@@ -159,6 +159,16 @@ header a:hover{
 }
 
 .main-container .side{
-    width: 50%;
+    width: 30%;
+    margin: 60px 0;
+
     background: url(../img/side.jpg) center center/cover;
+}
+.main-container .side .side-container{
+    width: 300px;
+    background-color: rgba(165, 42, 42, 0.258);
+    margin: 40px auto;
+}
+.main-container .side h3{
+    color: black;
 }
